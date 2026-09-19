@@ -110,15 +110,15 @@ def retrieve_documents(
     
     return collection.query(**query_kwargs)
 
-def format_context(documents:List[str], metatdatas: List[Dict])->str:
+def format_context(documents:List[str], metadatas: List[Dict])->str:
     """Format retrieved chunks into a readable, source-labelled context block."""
     if not documents:
         return ""
 
     context_parts = ["NASA DOCUMENT CONTEXT"]
-    safe_metatdatas = metatdatas or [{} for _ in documents]
+    safe_metadatas = metadatas or [{} for _ in documents]
 
-    for index, (document, metadata) in enumerate(zip(documents, safe_metatdatas), start = 1):
+    for index, (document, metadata) in enumerate(zip(documents, safe_metadatas), start = 1):
         metadata = metadata or {}
         mission = str(metadata.get("mission","unknown")).replace("_", " ").title()
         source = str(metadata.get("source", "unknown source"))
@@ -128,7 +128,7 @@ def format_context(documents:List[str], metatdatas: List[Dict])->str:
 
         clean_document = (document or "").strip()
         if len(clean_document) > 4000: # chunking
-            clean_docuemnt = clean_document[:4000].rstrip() + "...[truncated]"
+            clean_document = clean_document[:4000].rstrip() + "...[truncated]"
         context_parts.append(clean_document)
 
     return "\n".join(context_parts)

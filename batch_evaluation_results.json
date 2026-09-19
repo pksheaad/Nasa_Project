@@ -1,0 +1,118 @@
+{
+  "per_question_results": [
+    {
+      "id": "apollo13_overview",
+      "question": "What was the primary objective of Apollo 13, and why was the mission aborted?",
+      "expected_answer": "Apollo 13 was intended to land in the Fra Mauro region of the Moon. The lunar landing was aborted after an oxygen tank exploded in the service module, causing a major loss of electrical power and oxygen and forcing the mission to focus on returning the crew safely to Earth.",
+      "category": "overview",
+      "mission": "apollo_13",
+      "generated_answer": "The primary objective of Apollo 13 was to land astronauts on the Moon and return them safely to Earth. The mission was aborted due to an oxygen tank explosion in the service module, which caused a loss of electrical power and oxygen supply, jeopardizing the crew's safety.",
+      "faithfulness": 0.16666666666666666,
+      "answer_relevancy": 0.8453207797677165,
+      "semantic_similarity": 0.8562094701598068
+    },
+    {
+      "id": "apollo13_emergency",
+      "question": "How did the Apollo 13 crew use the Lunar Module during the emergency?",
+      "expected_answer": "After the service module accident, the crew powered down the Command Module and used the Lunar Module Aquarius as a lifeboat. It provided life support, electrical power, water, navigation support, and propulsion capability needed to help keep the crew alive until preparations for Earth re-entry.",
+      "category": "emergency_scenario",
+      "mission": "apollo_13",
+      "generated_answer": "During the Apollo 13 emergency, the crew used the Lunar Module as a lifeboat to bring them back to Earth. The Lunar Module provided consumables such as oxygen and electrical power for the crew, serving as a crucial element for their survival during the mission. The decision to use the Lunar Module in this way was made due to issues with fuel cells and dropping pressure in the remaining liquid oxygen tank in the command module.",
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.8259269289961272,
+      "semantic_similarity": 0.7594742571772874
+    },
+    {
+      "id": "challenger_disaster",
+      "question": "What technical failure led to the loss of Space Shuttle Challenger?",
+      "expected_answer": "Challenger was lost after the failure of O-ring seals in a field joint of the right solid rocket booster. Cold launch-day temperatures reduced the seals' ability to respond, allowing hot gases to escape and contribute to the breakup of the vehicle.",
+      "category": "disaster_analysis",
+      "mission": "challenger",
+      "generated_answer": "The loss of the Space Shuttle Challenger was due to the failure of an O-ring seal in its right solid rocket booster. This failure allowed hot gases to escape, leading to the structural failure of the external fuel tank and the subsequent disintegration of the orbiter during launch.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8834488398269792,
+      "semantic_similarity": 0.7731929704815179
+    },
+    {
+      "id": "apollo11_crew",
+      "question": "Who were the three Apollo 11 crew members and what were their roles?",
+      "expected_answer": "Apollo 11 was crewed by Neil Armstrong, commander; Edwin 'Buzz' Aldrin, lunar module pilot; and Michael Collins, command module pilot. Armstrong and Aldrin descended to the lunar surface while Collins remained in lunar orbit in the Command Module.",
+      "category": "crew",
+      "mission": "apollo_11",
+      "generated_answer": "The three Apollo 11 crew members were:\n1. Neil A. Armstrong - Commander\n2. Michael Collins - Command Module Pilot\n3. Edwin E. Aldrin, Jr. - Lunar Module Pilot\n\nNeil Armstrong was the Commander, Michael Collins served as the Command Module Pilot, and Edwin Aldrin was the Lunar Module Pilot.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9324474483835214,
+      "semantic_similarity": 0.8659449671187858
+    },
+    {
+      "id": "apollo11_technical",
+      "question": "What were the roles of the Command Module Columbia and Lunar Module Eagle during Apollo 11?",
+      "expected_answer": "Columbia was the Apollo 11 Command Module used for the crew's main spacecraft operations, lunar-orbit rendezvous, and return to Earth. Eagle was the Lunar Module that carried Armstrong and Aldrin from lunar orbit to the Moon's surface and then returned its ascent stage to lunar orbit for rendezvous with Columbia.",
+      "category": "technical_systems",
+      "mission": "apollo_11",
+      "generated_answer": "During the Apollo 11 mission, the Command Module was named Columbia, and its role was to remain in lunar orbit while the Lunar Module, named Eagle, descended to the lunar surface with astronauts Neil Armstrong and Edwin Aldrin. The Lunar Module was responsible for landing on the Moon and then returning the astronauts safely to the orbiting Command Module for the journey back to Earth.",
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.7722496758943961,
+      "semantic_similarity": 0.8784025773132156
+    },
+    {
+      "id": "apollo11_timeline",
+      "question": "What were the major Apollo 11 mission events from launch through splashdown?",
+      "expected_answer": "Apollo 11 launched on July 16, 1969. Eagle landed on the Moon on July 20, Armstrong and Aldrin conducted the lunar surface activity, the lunar module ascent stage later rendezvoused with Columbia, and the crew returned to Earth with splashdown in the Pacific Ocean on July 24, 1969.",
+      "category": "mission_timeline",
+      "mission": "apollo_11",
+      "generated_answer": "The major events of the Apollo 11 mission from launch through splashdown were as follows:\n\n1. Launch: The Apollo 11 mission was launched from Kennedy Space Center, Florida, at 8:32:00 a.m. e.s.t. on July 16, 1969.\n\n2. Earth Orbit Checkout: Activities during this phase involved checking the spacecraft's systems and preparing for translunar injection.\n\n3. Translunar Injection: The spacecraft performed a translunar injection to leave Earth's orbit and head towards the Moon.\n\n4. Transposition and Docking: The Command Module separated from the Saturn V rocket, turned around, and docked with the Lunar Module.\n\n5. Spacecraft Ejection: The Lunar Module separated from the Command Module to descend to the lunar surface.\n\n6. Translunar Coast: The spacecraft coasted towards the Moon, preparing for lunar orbit insertion.\n\n7. Lunar Landing: Neil Armstrong and Edwin \"Buzz\" Aldrin landed on the lunar surface while Michael Collins remained in lunar orbit.\n\n8. Lunar Ascent: Armstrong and Aldrin ascended from the lunar surface to rendezvous with Collins in lunar orbit.\n\n9. Transearth Injection: The spacecraft left lunar orbit and began the journey back to Earth.\n\n10. Splashdown: The Apollo 11 spacecraft splashed down in the Pacific Ocean at 195 hours and 18 minutes, 40 seconds ground elapse time, as planned.\n\nThese events represent the key milestones of the Apollo 11 mission from launch through splashdown.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9758611120470256,
+      "semantic_similarity": 0.7302556171748641
+    },
+    {
+      "id": "apollo13_crew",
+      "question": "Who were the Apollo 13 crew members?",
+      "expected_answer": "The Apollo 13 crew consisted of commander James A. Lovell Jr., command module pilot John L. Swigert Jr., and lunar module pilot Fred W. Haise Jr.",
+      "category": "crew",
+      "mission": "apollo_13",
+      "generated_answer": "The Apollo 13 crew members were Commander Jim Lovell, Command Module Pilot Jack Swigert, and Lunar Module Pilot Fred Haise.",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.9999996017358539,
+      "semantic_similarity": 0.9549416719612522
+    },
+    {
+      "id": "apollo13_timeline",
+      "question": "When did the Apollo 13 accident occur and how did the mission end?",
+      "expected_answer": "Apollo 13 launched on April 11, 1970. The oxygen tank accident occurred on April 13 while the spacecraft was en route to the Moon. The lunar landing was abandoned, the spacecraft looped around the Moon, and the crew splashed down safely in the Pacific Ocean on April 17, 1970.",
+      "category": "mission_timeline",
+      "mission": "apollo_13",
+      "generated_answer": "The Apollo 13 accident occurred on April 13, 1970, when an oxygen tank exploded onboard the spacecraft. The mission ended with the safe return of the crew to Earth on April 17, 1970, after a dramatic and challenging journey back from space.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.876859702879402,
+      "semantic_similarity": 0.8845812640060848
+    }
+  ],
+  "aggregate_metrices": [
+    {
+      "metric_name": "faithfulness",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4917,
+      "std_dev": 0.3968,
+      "count": 8
+    },
+    {
+      "metric_name": "answer_relevancy",
+      "min": 0.7722,
+      "max": 1.0,
+      "mean": 0.889,
+      "std_dev": 0.072,
+      "count": 8
+    },
+    {
+      "metric_name": "semantic_similarity",
+      "min": 0.7303,
+      "max": 0.9549,
+      "mean": 0.8379,
+      "std_dev": 0.0712,
+      "count": 8
+    }
+  ]
+}
